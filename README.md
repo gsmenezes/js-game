@@ -36,10 +36,10 @@ Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.co
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/gsmenezes/js-jogo
+$ git clone https://github.com/gsmenezes/js-game
 
 # Entre na pasta
-$ cd js-jogo
+$ cd js-game
 
 # Clique com o botão direito no arquivo index.html
 
