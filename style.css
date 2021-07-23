@@ -10,13 +10,14 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #333;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(49, 1, 72);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1 {
     color: #FFF;
     margin: 20px 0;
+    font-size: 20px;
 }
 
 .area {
@@ -56,9 +57,10 @@ h1 {
 .info {
     width: 300px;
     display: flex;
-    margin-top: 30px;
+    margin-top: 25px;
     border: 1px dotted #FFF;
     padding: 10px;
+    font-size: 14px;
 }
 .infoitem {
     flex: 1;
@@ -75,9 +77,20 @@ h1 {
 }
 
 .reset {
-    border: 1px solid #000;
-    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid #FFF;
+    background-color: rgba(104, 4, 150, 0.856);
     color: #FFF;
     padding: 10px;
     margin-top: 20px;
+    cursor: pointer;
+}
+
+.reset:hover{
+    background-color: rgba(62, 2, 90, 0.856);
+}
+
+footer {
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 12px;
 }
